@@ -1,7 +1,7 @@
 
 # ThirdChannel Programming test
 
-This is a small programming test that all 3c candidates should take. Candidates should choose from one of the Problems listed below, then issue a pull request of their solution to this repo. This is designed to be a small task, taking no more than an hour or so.
+This is a small programming test that all 3C candidates should take. Candidates should choose from one of the Problems listed below, then issue a pull request of their solution to this repo. This is designed to be a small task, taking no more than an hour or so.
 
 
 #### Notes and Directions
