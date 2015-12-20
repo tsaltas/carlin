@@ -38,7 +38,7 @@ There's no server to post the form input to, so don't worry about that. Feel fre
 
 In folder `problem_2`, create a small server that accepts JSON posted at some endpoint. This JSON should then be parsed and rendered however you'd like (e.g. an html response, a log file), but not simply to the command line. We leave the term 'rendered' vague on purpose. The JSON may be posted in several ways, e.g. via `curl` or via an AJAX call.
 
-There is a sample .json file in `problem_2` which gives the format your server should expect. The server should *only* render the fields found in the .json file; others should be ignored. List values may not necesarrily have a fixed size. Take note of the value type in each of the fields (e.g. string, number, boolean).
+There is a sample .json file in `problem_2` which gives the format your server should expect. The server should *only* render the fields found in the .json file; others should be ignored. List values may not necessarily have a fixed size. Take note of the value type in each of the fields (e.g. string, number, boolean).
 
 Feel free to use any language or framework to complete this task. In the Pull Request, provide some sample usage instructions (e.g. the endpoint to post), as well as how to run your server
 
