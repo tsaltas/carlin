@@ -32,7 +32,7 @@ In folder `problem_1`, you should find a static .html page containing a form wit
 *	All the form inputs are are 'text', but maybe they don't need to be
 *	Again, this is front-end, client side scripting only
 
-There's no server to post the form input to, so don't worry about that. Feel free to use any framework or metholodgy you'd like.
+There's no server to post the form input to, so don't worry about that. Feel free to use any framework or metholodgy you'd like, although please refrain some simple html 5 validation.
 
 ### Problem 2
 
