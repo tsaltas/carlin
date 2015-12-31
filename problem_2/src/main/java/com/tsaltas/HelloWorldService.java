@@ -1,5 +1,6 @@
 package com.tsaltas;
 
+import com.tsaltas.agent.AgentResource;
 import com.tsaltas.hello.EchoResource;
 import com.tsaltas.hello.HelloWorldResource;
 
@@ -23,6 +24,7 @@ public class HelloWorldService extends Application<HelloWorldConfiguration> {
 
         environment.jersey().register(new HelloWorldResource(template, defaultName));
         environment.jersey().register(new EchoResource());
+        environment.jersey().register(new AgentResource());
 
         environment.healthChecks().register("sample-healthcheck", new TemplateHealthCheck(template));
     }
