@@ -1,0 +1,10 @@
+.DS_Store
+
+# Intellij
+.idea/
+*.iml
+
+# Gradle (and the build in general)
+.gradle
+build
+gradle.properties
